@@ -1,0 +1,215 @@
+.liga{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.liga section{
+    padding: 0px 16px;
+}
+
+.liga section h3{
+    font-size: 1.3rem;
+    margin-bottom: 14px;
+    font-family: monospace;
+}
+
+#day{
+    color: rgb(230, 197, 33);
+    font-weight: bold;
+}
+
+#grey{
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.shield-contant{
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.shield-contant > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.liga-current  { 
+    height: 90px;
+}
+
+.contant-liga{
+    overflow: hidden;
+    border-radius: 8px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding-bottom: 4px;
+    min-width: 52px;
+}
+
+.shield{
+    background-color: rgb(195, 195, 195);
+    width: 40px;
+    height: 43px;
+    border-radius: 8px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 6px solid rgb(230, 230, 230);
+    box-shadow: 0px 4px 0px rgb(202, 202, 202);
+    
+    position: relative;
+}
+
+.shield::after{
+    content: '';
+    display: block;
+    background-color: rgba(255, 255, 255, 0.24);
+    width: calc(100% + 30px) ;
+    height: 50%;
+
+    position: absolute;
+    left: -18px;
+    top: 10px;
+    transform: rotate( -45deg);
+}
+
+
+/* color of shield */
+.shield-golden{
+    background-color: rgb(227, 189, 35);
+    border: 6px solid rgb(249, 215, 22);
+    box-shadow: 0px 4px 0px rgb(142, 121, 0);
+}
+
+.shield-silver{
+    background-color: rgb(145, 176, 190);
+    border: 6px solid rgb(184, 208, 220);
+    box-shadow: 0px 4px 0px rgb(84, 88, 101);
+}
+
+.shield-bronze{
+    background-color: rgb(178, 101, 6);
+    border: 6px solid rgb(232, 149, 40);
+    box-shadow: 0px 4px 0px rgb(123, 59, 0);
+}
+/* shield */
+
+.user-ranking{
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.user-ranking:hover{
+    background-color: rgba(128, 128, 128, 0.399);
+}
+
+/* medal style */
+.medal{
+    border: 3px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30px;
+    min-height: 30px;
+    font-weight: bold;
+    color: rgb(11, 112, 0);
+}
+
+.golden{
+    background: linear-gradient(39deg, rgba(255,252,0,1) 50%, rgb(230, 199, 0) 50%);
+    border: 3px solid rgb(214, 183, 2);
+    color: rgb(121, 77, 0);
+    position: relative;
+}
+
+.silver{
+    background: linear-gradient(39deg, rgb(159, 159, 159) 50%, rgb(100, 100, 100) 50%);
+    border: 3px solid rgb(60, 60, 60);
+    color: rgb(60, 60, 60);
+    position: relative;
+}
+
+.bronze{
+    background: linear-gradient(39deg, rgb(170, 112, 37) 50%, rgb(175, 93, 0) 50%);
+    border: 3px solid rgb(121, 65, 0);
+    color: rgb(121, 65, 0);
+    position: relative;
+}
+
+.golden::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    border-radius: 6px;
+    border: 13px solid rgb(214, 183, 2);
+    border-top: 20px solid rgb(214, 183, 2);
+    border-bottom: 8px solid transparent;
+    z-index: -1;
+}
+
+.silver::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    border-radius: 6px;
+    border: 13px solid rgb(60, 60, 60);
+    border-top: 20px solid rgb(60, 60, 60);
+    border-bottom: 8px solid transparent;
+    z-index: -1;
+}
+
+.bronze::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    border-radius: 6px;
+    border: 13px solid rgb(121, 65, 0);
+    border-top: 20px solid rgb(121, 65, 0);
+    border-bottom: 8px solid transparent;
+    z-index: -1;
+}
+/* fin */
+.user{
+    background-color: brown;
+    border-radius: 50%;
+    min-width: 45px;
+    min-height: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.user-info{
+    flex-grow: 1;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    overflow: hidden;
+}
+
+.user-name{
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+}
+
+.exp{
+    white-space: pre;
+}

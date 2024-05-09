@@ -1,0 +1,94 @@
+.aprender{
+    flex-grow: 1;
+    display: grid;
+    gap: 16px;
+}
+
+.section-level{
+    border-radius: 16px;
+    border: 1px solid black;
+    display: flex;
+    overflow: hidden;
+}
+
+.modulos, .info-section{
+    background-color: rgb(33, 174, 33);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.modulos{
+    border-right: 1px solid black;
+    flex-grow: 4;
+}
+
+.modulos > h2, .modulos > p{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.info-section{
+    align-items: center;
+    flex-grow: 1;
+    border-left: 1px solid black;
+}
+
+.info-section > img{
+    height: 40px;
+}
+
+/* //////////// pruevas /////////////// */
+
+.pruevas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.list-pruevas{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    gap: 12px;
+}
+
+.e-list-pruevas{
+    width: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.e-list-pruevas > a{
+    display: block;
+    background-color: grey;
+    border-radius: 50%;
+    border-bottom: 4px solid black;
+    width: 80px;
+    height: 80px;
+
+}
+
+.prueva-img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+
+.prueva-img > img{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 40%;
+    left: -50%;
+}

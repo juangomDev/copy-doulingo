@@ -1,0 +1,47 @@
+{
+
+    "vowels": {
+        "ɒ":  { "id": 0, "txt": "hot",   "progress": 10  },
+        "æ":  { "id": 1, "txt": "cat",   "progress": 20  }, 
+        "ʌ":  { "id": 2, "txt": "but",   "progress": 30  },
+        "ɛ":  { "id": 3, "txt": "bed",   "progress": 0  }, 
+        "eɪ": { "id": 4, "txt": "say",   "progress": 0  }, 
+        "ə":  { "id": 5, "txt": "bird",  "progress": 0  }, 
+        "i":  { "id": 6, "txt": "ship",  "progress": 0  }, 
+        "ɪ":  { "id": 7, "txt": "sheep", "progress": 0  }, 
+        "a":  { "id": 8, "txt": "about", "progress": 0  }, 
+        "oʊ": { "id": 9, "txt": "boat",  "progress": 0  }, 
+        "ʊ":  { "id": 10, "txt": "foot",  "progress": 0  }, 
+        "u":  { "id": 11, "txt": "food",  "progress": 0  }, 
+        "aʊ": { "id": 12, "txt": "cow",   "progress": 0  }, 
+        "aɪ": { "id": 13, "txt": "time",  "progress": 0  }, 
+        "ɔɪ": { "id": 14, "txt": "boy",   "progress": 0  }
+    },
+
+    "consonants": {
+        "b":  { "id": 15, "txt": "book",    "progress": 0  },
+        "tʃ": { "id": 16, "txt": "chair",   "progress": 0  },
+        "d":  { "id": 17, "txt": "day",     "progress": 0  },
+        "f":  { "id": 18, "txt": "fish",    "progress": 0  },
+        "g":  { "id": 19, "txt": "go",      "progress": 0  },
+        "h":  { "id": 20, "txt": "home",    "progress": 0  },
+        "dʒ": { "id": 21, "txt": "job",     "progress": 0  },
+        "k":  { "id": 22, "txt": "key",     "progress": 0  },
+        "l":  { "id": 23, "txt": "lion",    "progress": 0  },
+        "m":  { "id": 24, "txt": "moon",    "progress": 0  },
+        "n":  { "id": 25, "txt": "nose",    "progress": 0  },
+        "ŋ":  { "id": 26, "txt": "sing",    "progress": 0  },
+        "p":  { "id": 27, "txt": "pig",     "progress": 0  },
+        "ɹ":  { "id": 28, "txt": "red",     "progress": 0  },
+        "s":  { "id": 29, "txt": "see",     "progress": 0  },
+        "ʒ":  { "id": 30, "txt": "measure", "progress": 0  },
+        "ʃ":  { "id": 31, "txt": "shoe",    "progress": 0  },
+        "t":  { "id": 32, "txt": "time",    "progress": 0  },
+        "ð":  { "id": 33, "txt": "then",    "progress": 0  },
+        "θ":  { "id": 34, "txt": "think",   "progress": 0  },
+        "v":  { "id": 35, "txt": "very",    "progress": 0  },
+        "w":  { "id": 36, "txt": "water",   "progress": 0  },
+        "j":  { "id": 37, "txt": "you",     "progress": 0  },
+        "z":  { "id": 38, "txt": "zoo",     "progress": 0  }
+    }
+}

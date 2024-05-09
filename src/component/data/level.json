@@ -1,0 +1,70 @@
+{
+    "etapa1" : {
+        "section1" : {
+            "color" : "green",
+            "level" : [
+                {
+                    "types" : "star",
+                    "id" : "010101",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "star",
+                    "id" : "010102",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "ejercicio",
+                    "id" : "010104",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "bonus",
+                    "id" : "010105",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "star",
+                    "id" : "010106",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "cuento",
+                    "id" : "010107",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "star",
+                    "id" : "010108",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "ejercicio",
+                    "id" : "010109",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "bonus",
+                    "id" : "010110",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "star",
+                    "id" : "010111",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "star",
+                    "id" : "010112",
+                    "progress" : 0 
+                },
+                {
+                    "types" : "cuento",
+                    "id" : "010113",
+                    "progress" : 0 
+                }
+
+            ]
+        }
+    }
+}

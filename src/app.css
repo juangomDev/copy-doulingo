@@ -1,0 +1,32 @@
+:root{
+    --color-crema : rgb(77, 91, 109)
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: var(--color-crema); */
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr minmax(260px, 400px);
+}
+
+.main-nav{
+    border: 2px solid black;
+    max-width: 240px;
+}
+
+.main{
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    min-width: 360px;
+    max-width:  560px;
+}
+
+.footer{
+    min-width: 260px;
+    max-width: 400px;
+}
