@@ -1,6 +1,6 @@
+import { Route, Routes } from 'react-router-dom';
 
 import './app.css'
-
 
 import Aprender from './component/aprender';
 import { Sonido } from "./component/sonido";
@@ -20,13 +20,13 @@ export function Container() {
 
             <main className='main'  > 
 
-
-                <Aprender />
-                {/* <Sonido /> */}
-                {/* <Praticar /> */}
-                {/* <Liga /> */}
-
-
+                <Routes >
+                    <Route path='/Aprender' element={ <Aprender /> } />
+                    <Route path='/Sonido' element={ <Sonido /> } />
+                    <Route path='/Practicar' element={ <Praticar /> } />
+                    <Route path='/Liga' element={ <Liga /> } />
+                </Routes>
+                
             </main>
 
             <footer className='footer'>
@@ -36,3 +36,4 @@ export function Container() {
         </div>
     )
 } 
+

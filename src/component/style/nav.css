@@ -32,7 +32,7 @@
 }
 
 
-.e-list-nav > a{
+.e-list-nav-link{
     text-decoration: none;
     color: black;
     display: flex;
@@ -42,6 +42,6 @@
     border-radius: 15px;
 }
 
-.e-list-nav > a:hover{
+.e-list-nav-link:hover{
     background-color: rgba(136, 136, 136, 0.418);
 }
